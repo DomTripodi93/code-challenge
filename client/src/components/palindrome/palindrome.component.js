@@ -34,14 +34,21 @@ const Palindrome = () => {
 
     return (
         <div className="centered">
+            <h4>An Evaluation of the Number of Palindromes Within a String</h4>
+            <br />
+            <h4>
+                Any String That is the Same Forward and Backward is Considered a 
+                Palindrome, Including a Single Letter
+            </h4>
+            <br />
             {numberOf > 0 ?
                 <h5>
                     There are {numberOf} palindromes within {lastVal}.
                 </h5>
                 :
                 <h5>
-                    Submit a string below for evaluation, and the number of palindromes 
-                    within the string will appear here.
+                    Submit a string below for evaluation, and the number of 
+                    palindromes within the string will appear here.
                 </h5>
             }
             

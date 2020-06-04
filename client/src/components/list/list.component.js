@@ -24,6 +24,10 @@ const List = () => {
 
     return (
         <div className="centered">
+            <h4>A List That Updates As Values Are Added</h4>
+            <br/>
+            <h4>Every 3rd Value Will Have Red Text, All Others Will Be Black Text</h4>
+            <br/>
             {list.length > 0 ?
                 <ul>
                     {list.map(item =>(
