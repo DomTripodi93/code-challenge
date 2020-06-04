@@ -5,3 +5,16 @@
 .black{
   color: black;
 }
+
+.centered {
+  text-align: center;
+}
+
+.border {
+  border-style: solid;
+  border-color: rgb(0, 21, 44);
+  background-color: rgb(214, 206, 255);
+  margin: auto;
+  width: 90%;
+  max-width: 800px;
+}

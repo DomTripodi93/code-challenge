@@ -34,6 +34,7 @@
     ]
   },
   "resolutions": {
-    "yargs-parser": "^18.1.2"
+    "yargs-parser": "^18.1.2",
+    "acorn": "7.1.1"
   }
 }
